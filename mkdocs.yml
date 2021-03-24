@@ -1,0 +1,19 @@
+site_name: meddra-toolkit
+site_description: Meddra toolkit to handle ontology files
+site_author: Pierre Luce
+
+repo_url: https://github.com/posos-tech/meddra-toolkit
+edit_uri: https://github.com/posos-tech/meddra-toolkit/edit/main/docs
+
+theme: readthedocs
+
+markdown_extensions:
+  - codehilite
+
+nav:
+  - Home: index.md
+  - Advanced: advanced.md
+  - About:
+    - Release Notes: about/changelog.md
+    - Contributing: about/contributing.md
+    - License: about/license.md
