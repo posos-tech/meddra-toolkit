@@ -170,8 +170,8 @@ $(PACKAGE).spec:
 .PHONY: upload
 upload: dist ## Upload the current version to PyPI
 	git diff --name-only --exit-code
-	poetry publish
-	bin/open https://pypi.org/project/$(PACKAGE)
+	poetry publish -r posos
+	bin/open https://pypi.production.posos.co/#/package/$(PACKAGE)
 
 # CLEANUP #####################################################################
 

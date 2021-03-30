@@ -33,10 +33,14 @@ $ poetry add meddra-toolkit
 
 # Usage
 
-After installation, the package can imported:
+After installation, the package can imported.
+Then load a Meddra Version and explore it:
 
-```text
-$ python
->>> import meddra_toolkit
->>> meddra_toolkit.__version__
+```python
+from meddra_toolkit import meddra
+base = meddra.MeddraData(meddra.VERSION_24_0_FR)
+base.load()
+result = base.find("covid", regex=True)
+# `result` is an array of `MeddraConcept`
 ```
+

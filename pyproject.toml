@@ -10,8 +10,8 @@ authors = ["Pierre Luce <pierre.luce@posos.fr>"]
 
 readme = "README.md"
 
-homepage = "https://pypi.org/project/meddra_toolkit"
-documentation = "https://meddra_toolkit.readthedocs.io"
+homepage = "https://github.com/posos-tech/meddra-toolkit"
+documentation = "https://github.com/posos-tech/meddra-toolkit/docs"
 repository = "https://github.com/posos-tech/meddra-toolkit"
 
 keywords = [

@@ -18,4 +18,4 @@ def describe_cli():
         def when_integer(runner):
             result = runner.invoke(main)
 
-            #expect(result.exit_code) == 1
+            # expect(result.exit_code) == 1
